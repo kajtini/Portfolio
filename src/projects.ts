@@ -11,6 +11,19 @@ export type Project = {
 
 const projects: Array<Project> = [
   {
+    title: "Pokedex App",
+    quickOverview:
+      "Application allowing the user to search for pokemon, see detailed info about them and add them to favourites.",
+    broadOverview:
+      "Application allowing the user to search for pokemon, see detailed info about them and add them to favourites. The user can log in or create a new account. The app allows the user to add pokemon to favourites and then see them in a seperate favourite page. Upon clicking on a learn more button located in a pokemon card, a modal will appear with detailed information about the selected pokemon. The user can also make use of pagination element that allows the user to transfer to a desired page.",
+    tech: ["React", "Redux + Toolkit", "TypeScript", "Firebase", "MUI"],
+    learned:
+      "The idea behind this project was to practice my Redux and firebase skills. I gained a lot of understanding of redux and firebase during the development of the project. Besides that, I've tried to make my code as clean as possible and my folder structure as natural as it can be. Overall, I'm satisfied that I was able to learn new technologies and improve my code quality",
+    liveLink: "https://pokedex-f50cb.web.app/",
+    repoLink: "https://github.com/kajtini/Pokedex-TypeScript-Redux",
+    id: 1,
+  },
+  {
     title: "Netflix Clone",
     quickOverview:
       "Functional clone of the netflix page with detailed info about movies and shows.",
@@ -27,7 +40,7 @@ const projects: Array<Project> = [
       "During the development of that project I could improve my TypeScript understanding and knowledge by a lot. I also managed to improve my file and folder structure in React application as this project contained many components and files. Previously, it was difficult for me to understand React Context, but thanks to this project I can now use it with confidence.",
     liveLink: "https://netflix-clone-kk.netlify.app/",
     repoLink: "https://github.com/kajtini/Netflix-Clone-Typescript-React",
-    id: 1,
+    id: 2,
   },
   {
     title: "Countries Info App",
@@ -42,8 +55,9 @@ const projects: Array<Project> = [
     repoLink:
       "https://github.com/kajtini/Countries-Info-Project-REST-countries-API",
 
-    id: 2,
+    id: 3,
   },
+
   {
     title: "Tip Calculator",
     quickOverview:
@@ -57,7 +71,7 @@ const projects: Array<Project> = [
       "https://kajtini.github.io/tip-calculator-frontendmentor-solution/",
     repoLink:
       "https://github.com/kajtini/tip-calculator-frontendmentor-solution",
-    id: 3,
+    id: 4,
   },
 ];
 
